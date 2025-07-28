@@ -45,16 +45,6 @@
       "nombre": "Brownie",
       "descripcion": "Sandwich de helado de vainilla con dos galletas cubierto con chocolate",
       "precio": 4.5
-    },
-    {
-      "codigo": "1753672617482",
-      "nombre": "",
-      "nit": "",
-      "fecha": "",
-      "heladoId": 1,
-      "cantidad": 2,
-      "total": 9,
-      "id": 5
     }
   ],
   "ventas": [
@@ -62,11 +52,31 @@
       "id": 1,
       "codigo": "1234",
       "nombre": "Juan Arias",
-      "nit": "646464",
+      "nit": "6464641",
       "fecha": "2024-12-10",
       "heladoId": 1,
       "cantidad": 1,
       "total": 4.5
+    },
+    {
+      "codigo": "1753674042803",
+      "nombre": "Jacobo Nogales",
+      "nit": "21312",
+      "fecha": "2025-07-27",
+      "heladoId": 1,
+      "cantidad": 4,
+      "total": 18,
+      "id": 2
+    },
+    {
+      "codigo": "1753674042803",
+      "nombre": "Paolo Arias",
+      "nit": "21312",
+      "fecha": "2025-07-27",
+      "heladoId": 1,
+      "cantidad": 4,
+      "total": 18,
+      "id": 2
     }
   ]
 }

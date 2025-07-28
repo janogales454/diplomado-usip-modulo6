@@ -1,33 +1,21 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <div class="px-4 py-5 my-5 text-center center-panel">
+      <div class="inner-cell">
+        <img class="d-block mx-auto mb-4" src="../assets/logo.png" alt="" width="72" height="57"> 
+        <h1 class="display-5 fw-bold text-body-emphasis">¡Bienvenidos a la Heladeria Montaño!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Ofrecemos servicios de venta de helados para pequeñas empresas, que aun esten en las etapas iniciales de levantar sus negocios en el mercado.</p> 
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+            <router-link :to="{ path: '/about' }">
+            
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Acerca de nosotros</button></router-link>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="b-example-divider"></div>
   </div>
 </template>
 
@@ -55,5 +43,19 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.center-panel {
+  background-color: #f8f9fa;
+  background-image: url('../assets/heladeria.png'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+.inner-cell
+{
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
 </style>

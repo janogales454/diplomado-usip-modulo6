@@ -1,6 +1,16 @@
 Practica 2 Vue3
 Nombre(s) de integrante(s):
 - Jacobo Angel Nogales Ortiz
+
+Notas Adicionales:
+
+-   Para iniciar el JSON Server se recomienda primero copiar una intancia del archivo db.json en la carpeta /DB y colocarla en la raiz del proyecto, 
+    inicianizandola usando el siguiente comando.
+    
+        json-server --watch db.json --port 4000
+
+
 Pasos para iniciar el proyecto
 1) npm install
 2) npm run serve
+

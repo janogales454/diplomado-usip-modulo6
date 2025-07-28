@@ -1,0 +1,82 @@
+{
+  "tipos": [
+    {
+      "id": 1,
+      "nombre": "Leche"
+    },
+    {
+      "id": 2,
+      "nombre": "Agua"
+    },
+    {
+      "id": 3,
+      "nombre": "Crema"
+    },
+    {
+      "nombre": "Yogurt",
+      "id": 4
+    }
+  ],
+  "helados": [
+    {
+      "id": 1,
+      "tipoId": 1,
+      "nombre": "Rocky",
+      "descripcion": "Helado de vainilla cubierto por chocolate con almendra",
+      "precio": 4.5
+    },
+    {
+      "id": 2,
+      "tipoId": 1,
+      "nombre": "Vaquita",
+      "descripcion": "Helado de granizado",
+      "precio": 4.5
+    },
+    {
+      "id": 3,
+      "tipoId": 1,
+      "nombre": "Tentacion",
+      "descripcion": "Vainilla con centro de mermelada cubierto por cocholate",
+      "precio": 4.5
+    },
+    {
+      "id": 4,
+      "tipoId": 1,
+      "nombre": "Brownie",
+      "descripcion": "Sandwich de helado de vainilla con dos galletas cubierto con chocolate",
+      "precio": 4.5
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "codigo": "1234",
+      "nombre": "Juan Arias",
+      "nit": "6464641",
+      "fecha": "2024-12-10",
+      "heladoId": 1,
+      "cantidad": 1,
+      "total": 4.5
+    },
+    {
+      "codigo": "1753674042803",
+      "nombre": "Jacobo Nogales",
+      "nit": "21312",
+      "fecha": "2025-07-27",
+      "heladoId": 1,
+      "cantidad": 4,
+      "total": 18,
+      "id": 2
+    },
+    {
+      "codigo": "1753674042803",
+      "nombre": "Paolo Arias",
+      "nit": "21312",
+      "fecha": "2025-07-27",
+      "heladoId": 1,
+      "cantidad": 4,
+      "total": 18,
+      "id": 2
+    }
+  ]
+}

@@ -16,8 +16,8 @@
                             Administración
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/tipos">Administrar Tipos de Helados</a></li>
-                            <li><a class="dropdown-item" href="/helados">Administrar Menu de Helados</a></li>
+                            <li><a class="dropdown-item" href="/tipos">Adm. Tipos de Helados</a></li>
+                            <li><a class="dropdown-item" href="/helados">Adm. Menu de Helados</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
